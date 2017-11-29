@@ -224,3 +224,12 @@ button.paypal {
 		background-color: var(--color);
 	}
 }
+
+.home.photo {
+	overflow: hidden;
+	--rad: 4px;
+	border-radius: var(--rad);
+	img {
+		border-radius: var(--rad);
+	}
+}
