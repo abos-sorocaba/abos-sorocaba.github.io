@@ -1,0 +1,48 @@
+
+<section id="contact" class="contact bg-gray blog">
+    <div class="container">
+        <!-- <h4>Entre em contato via redes socias ou via email abaixo <i class="fa fa-heart"></i></h4> -->
+        <div class="columns">
+            <br>
+            <h2>Criar postagem</h2>
+            <form id="form" class="col-md-8 col-md-offset-2">
+                <input type="text" id="title" class="form-control input" placeholder="Título da postagem">
+                <input type="text" id="subtitle" class="form-control" placeholder="Subtítulo da postagem">
+                <textarea id="content" class="form-control resize-vertical" placeholder="Digite aqui o conteúdo de sua postagem :)"></textarea>
+                <div class="drop-area">
+                    <span id="message" class="" onclick="Admin.upload('message', 'viewer')">Clique aqui ou arraste suas fotos para adicioná-las a postagem</span>
+                    <div id="viewer" class="hidden">
+                        <div id="upload-more" class="ghost" onclick="Admin.upload('message', 'viewer')">
+                            <i class="fa fa-plus-circle fa-3x fa-fw" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <input type="file" id="file" multiple="multiple">
+                <button type="submit" class="btn btn-outline btn-xl">Publicar Post</button>
+            </form>
+        </div>
+        <!-- <ul class="list-inline list-social">
+            <li class="social-twitter">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="social-facebook">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="social-google-plus">
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+        </ul> -->
+    </div>
+
+    <div class="template" data-template="">
+        <span class="remove">
+            <i class="fa fa-times fa-fw" aria-hidden="true"></i>
+        </span>
+        <div>
+            <img src="">
+        </div>
+    </div>
+
+</section>
+{% include footer.html %}
+

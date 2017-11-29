@@ -1,0 +1,73 @@
+
+<section id="contact" class="contact bg-gray">
+    <div class="container">
+        <h4>Ajude-nos com doações entrando em contato conosco, ou faça uma doação <i class="fa fa-heart"></i></h4>
+        <!-- <ul class="list-inline list-social">
+            {% for network in site.social %}
+            <li class="social-{{ network.title }}">
+                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+            </li>
+            {% endfor %}
+        </ul> -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+            <!-- Identify your business so that you can collect the payments. -->
+            <input type="hidden" name="business"
+                value="donations@kcparkfriends.org">
+
+            <!-- Specify a Donate button. -->
+            <input type="hidden" name="cmd" value="_donations">
+
+            <!-- Specify details about the contribution -->
+            <input type="hidden" name="item_name" value="Friends of the Park">
+            <input type="hidden" name="item_number" value="Fall Cleanup Campaign">
+            <input type="hidden" name="currency_code" value="USD">
+
+            <!-- Display the payment button. -->
+            <button type="submit" class="paypal">
+                <i class="fa fa-paypal fa-2x fa-fw" aria-hidden="true"></i>
+                <span>Fazer uma doação</span>
+            </button>
+
+        </form>
+
+        <div class="columns">
+            <br>
+            <h2>Enviar mensagem</h2>
+            <form action="" class="col-md-8 col-md-offset-2">
+                <input type="text" class="form-control input" placeholder="Nome Completo">
+                <input type="text" class="form-control" placeholder="Email">
+                <input type="text" class="form-control" placeholder="Assunto">
+                <textarea name="" id="" class="form-control" placeholder="Digite aqui a mensagem que deseja enviar"></textarea>
+                <button class="btn btn-outline btn-xl">Enviar mensagem</button>
+            </form>
+        </div>
+        <!-- <ul class="list-inline list-social">
+            <li class="social-twitter">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="social-facebook">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="social-google-plus">
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+        </ul> -->
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <p>&copy; 2017 inspirado no tema <a rel="nofollow" target="blank" href="https://startbootstrap.com/template-overviews/new-age/">Start Bootstrap</a> Feito com <a target="_blank" rel="nofollow" href="https://jekyllrb.com/">Jekyll</a> por <a target="_blank" rel="nofollow" href="https://github.com/zerodois">Felipe J. L. Rita</a> disponível por <a target="_blank" rel="nofollow" href="#">surge.sh</a>. Todos os direitos reservados.</p>
+        <ul class="list-inline">
+<!--             <li>
+                <a href="#">Privacy</a>
+            </li>
+            <li>
+                <a href="#">Terms</a>
+            </li>
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+ -->        </ul>
+    </div>
+</footer>
