@@ -8,6 +8,23 @@ html, body {
 	display: inline-block;
 }
 
+.slider {
+	--pad: 50px;
+	padding: 0 var(--pad);
+	img {
+		border-radius: 5px;
+	}
+	.slick-arrow:before {
+		color: #333;
+	}
+	.slick-prev {
+		left: 20px;
+	}
+	.slick-next {
+		right: 15px;
+	}
+}
+
 .ghost {
 	opacity: 0.7;
 	&:hover, &:focus {
