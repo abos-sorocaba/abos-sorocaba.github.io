@@ -1,0 +1,11 @@
+---
+layout:     post
+title:      "ABCD"
+date:       2018-06-06 12:08:34
+author:     "Felipe Lopes Rita"
+header-img: "img/posts/2018-06-06-abcd/0.png"
+---
+
+JDJDJDJDJDDJDJDJDJDJDJDJD
+
+<img src="/img/posts/2018-06-06-abcd/0.png" class="album-photo">
